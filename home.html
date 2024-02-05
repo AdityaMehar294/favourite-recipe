@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="responsiveStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid top-container">
+        <img src="/Fimage/topImg.jpg" alt="topImg" class="img-fluid imgTop">
+        <div class="title text-light">
+            <h1 class="fw-bold display-2">Favorite Recipes</h1>
+        </div>
+    </div>
+    <div class="container my-5 text-center">
+        <input type="text" name="" id="searchInput" placeholder="search recipe here..." >
+    </div>
+    <div class="container my-5 main-container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-6 img-container">
+                <img src="/Fimage/aloo paratha.jpg" alt="aloo paratha" class="img-fluid recipe-img">
+                <h3 class="text-light">Aloo Paratha</h3>
+                <div class="recipe-details ingredient-section" id="AlooParathaIngradient">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 cups whole wheat flour</li>
+                        <li class="list-group-item">3-4 medium-sized potatoes (boiled and mashed)</li>
+                        <li class="list-group-item">1 small onion (finely chopped)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1-2 green chilies (finely chopped)</li>
+                        <li class="list-group-item">1 teaspoon ginger-garlic paste</li>
+                        <li class="list-group-item">1/2 teaspoon cumin seeds</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1/2 teaspoon turmeric powder</li>
+                        <li class="list-group-item">1/2 teaspoon red chili powder</li>
+                        <li class="list-group-item">1/2 teaspoon garam masala</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">Fresh coriander leaves (finely chopped)</li>
+                        <li class="list-group-item">Salt (to taste)</li>
+                        <li class="list-group-item">Ghee or oil (for cooking)</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section" id="AlooParathaInstruction">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">
+                          In a large mixing bowl, combine the whole wheat flour and a pinch of salt. Gradually add water and knead the mixture into a smooth and soft dough. Cover it and let it rest for at least 15-20 minutes.
+                        </li>
+                        <li class="list-group-item">
+                          <strong>For the Potato Filling:</strong>
+                          <ul>
+                            <li>
+                              In a mixing bowl, combine the mashed potatoes, chopped onion, green chilies, ginger-garlic paste, cumin seeds, turmeric powder, red chili powder, garam masala, chopped coriander leaves, and salt. Mix well.
+                            </li>
+                            <li>
+                              Divide the potato mixture into small, lemon-sized balls. Set aside.
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="list-group-item">
+                          <strong>Assembling and Cooking:</strong>
+                          <ol>
+                            <li>
+                              Take a portion of the dough and roll it into a small ball. Flatten it with your palms.
+                            </li>
+                            <li>
+                              Roll the flattened dough ball into a small disc.
+                            </li>
+                            <li>
+                              Place one of the potato balls in the center of the disc.
+                            </li>
+                            <li>
+                              Bring the edges of the disc together, covering the potato mixture completely. Seal the edges to form a stuffed ball.
+                            </li>
+                            <li>
+                              Gently flatten the stuffed ball and roll it out into a paratha, ensuring the filling is evenly distributed.
+                            </li>
+                            <li>
+                              Heat a griddle or a tawa over medium heat. Place the rolled paratha on the hot surface.
+                            </li>
+                            <li>
+                              Cook for a minute or so, then flip the paratha and apply ghee or oil on the cooked side.
+                            </li>
+                            <li>
+                              Flip again and apply ghee or oil on the other side. Cook until both sides are golden brown and crisp.
+                            </li>
+                            <li>
+                              Repeat the process for the remaining dough and potato filling.
+                            </li>
+                          </ol>
+                        </li>
+                        <li class="list-group-item">
+                          Serve the Aloo Parathas hot with yogurt, pickles, or your favorite chutney. Enjoy your delicious homemade Aloo Parathas!
+                        </li>
+                      </ol>
+                    <!-- Add more instructions as needed -->
+                </div>
+            </div>
+            <div class="col-md-6 img-container">
+                <img src="/Fimage/aloo-gobi-matar.jpg" alt="aloo-gobi-matar" class="img-fluid recipe-img">
+                <h3 class="text-light">Aloo Gobhi Matar</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 cups cauliflower florets</li>
+                        <li class="list-group-item">1 cup green peas (fresh or frozen)</li>
+                        <li class="list-group-item">2 medium-sized potatoes, peeled and cubed</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 large onion, finely chopped</li>
+                        <li class="list-group-item">2 tomatoes, finely chopped</li>
+                        <li class="list-group-item">2-3 green chilies, chopped (adjust according to your spice preference)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 tablespoon ginger-garlic paste</li>
+                        <li class="list-group-item">1/2 teaspoon turmeric powder</li>
+                        <li class="list-group-item">1 teaspoon red chili powder (adjust to taste)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 teaspoon cumin seeds</li>
+                        <li class="list-group-item">1 teaspoon coriander powder</li>
+                        <li class="list-group-item">1/2 teaspoon garam masala</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">Salt to taste</li>
+                        <li class="list-group-item">3 tablespoons oil</li>
+                        <li class="list-group-item">Fresh coriander leaves for garnish</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section" id="instruction-AlooGobhiMatar">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Prepare the Vegetables:
+                            <ol class="list-group">
+                                <li class="list-group-item">Cut the cauliflower into florets.</li>
+                                <li class="list-group-item">Peel and cube the potatoes.</li>
+                                <li class="list-group-item">If using fresh peas, shell them; if using frozen peas, thaw them.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Blanch Cauliflower:
+                            <ol class="list-group">
+                                <li class="list-group-item">Boil water in a pot, add a pinch of salt.</li>
+                                <li class="list-group-item">Add cauliflower florets and peas to the boiling water for about 3-4 minutes.</li>
+                                <li class="list-group-item">Drain and keep aside.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Cooking the Vegetables:
+                            <ol class="list-group">
+                                <li class="list-group-item">Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+                                <li class="list-group-item">Add chopped onions and sauté until they turn golden brown.</li>
+                                <li class="list-group-item">Add ginger-garlic paste and green chilies. Sauté for a minute until the raw smell disappears.</li>
+                                <li class="list-group-item">Add chopped tomatoes and cook until they become soft and the oil starts to separate.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Add Spices:
+                            <ol class="list-group">
+                                <li class="list-group-item">Add turmeric powder, red chili powder, coriander powder, and salt. Mix well and cook for a couple of minutes.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Add Vegetables:
+                            <ol class="list-group">
+                                <li class="list-group-item">Add the blanched cauliflower florets, peas, and cubed potatoes to the pan. Mix gently to coat the vegetables with the spice mixture.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Cover and Cook:
+                            <ol class="list-group">
+                                <li class="list-group-item">Cover the pan with a lid and cook on low to medium heat. Stir occasionally to prevent sticking.</li>
+                                <li class="list-group-item">Cook until the vegetables are tender but not mushy. It usually takes around 15-20 minutes.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Finish with Garam Masala:
+                            <ol class="list-group">
+                                <li class="list-group-item">Once the vegetables are cooked, add garam masala and stir well.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item">Garnish and Serve:
+                            <ol class="list-group">
+                                <li class="list-group-item">Garnish with fresh coriander leaves.</li>
+                                <li class="list-group-item">Serve hot with roti, naan, or rice.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4 img-container2">
+                <img src="/Fimage/cake.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">cake</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 1/2 cups all-purpose flour</li>
+                        <li class="list-group-item">2 1/2 teaspoons baking powder</li>
+                        <li class="list-group-item">1/2 teaspoon salt</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 cup (2 sticks) unsalted butter, softened</li>
+                        <li class="list-group-item">2 cups granulated sugar</li>
+                        <li class="list-group-item">4 large eggs</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 teaspoons vanilla extract</li>
+                        <li class="list-group-item">1 1/4 cups whole milk</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Preheat the oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.</li>
+                        <li class="list-group-item">In a medium bowl, whisk together the flour, baking powder, and salt. Set aside.</li>
+                        <li class="list-group-item">In a large mixing bowl, cream together the softened butter and sugar until light and fluffy.</li>
+                        <li class="list-group-item">Add the eggs one at a time, beating well after each addition. Stir in the vanilla extract.</li>
+                        <li class="list-group-item">Gradually add the dry ingredients to the wet ingredients, alternating with the milk. Begin and end with the dry ingredients.</li>
+                        <li class="list-group-item">Divide the batter evenly between the prepared cake pans and smooth the tops with a spatula.</li>
+                        <li class="list-group-item">Bake in the preheated oven for 25-30 minutes or until a toothpick inserted into the center comes out clean.</li>
+                        <li class="list-group-item">Remove the cakes from the oven and let them cool in the pans for 10 minutes. Then, transfer the cakes to a wire rack to cool completely.</li>
+                        <li class="list-group-item">Once the cakes are completely cool, you can frost and decorate them as desired.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="col-md-4 img-container2">
+                <img src="/Fimage/Dal-Makhani.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">Dal Makhani</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 cup whole black gram (urad dal)</li>
+                        <li class="list-group-item">1/4 cup kidney beans (rajma)</li>
+                        <li class="list-group-item">1 large onion, finely chopped</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 tablespoon ginger-garlic paste</li>
+                        <li class="list-group-item">1/2 teaspoon turmeric powder</li>
+                        <li class="list-group-item">1 teaspoon red chili powder (adjust to taste)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 teaspoon cumin seeds</li>
+                        <li class="list-group-item">1 teaspoon garam masala</li>
+                        <li class="list-group-item">Salt to taste</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section dal-makhani">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Rinse and soak the black gram (urad dal) and kidney beans (rajma) in water overnight.</li>
+                        <li class="list-group-item">Cook the soaked dal and rajma in a pressure cooker until soft and well-cooked.</li>
+                        <li class="list-group-item">In a separate pan, heat butter and add cumin seeds. Sauté until they splutter.</li>
+                        <li class="list-group-item">Add finely chopped onions and sauté until golden brown.</li>
+                        <li class="list-group-item">Add ginger-garlic paste and sauté for a minute until the raw smell disappears.</li>
+                        <li class="list-group-item">Add pureed tomatoes, turmeric powder, red chili powder, and salt. Cook until the oil starts to separate.</li>
+                        <li class="list-group-item">Add the cooked dal and rajma to the tomato mixture. Mix well and let it simmer on low heat.</li>
+                        <li class="list-group-item">Add garam masala and cream. Stir until well combined.</li>
+                        <li class="list-group-item">Simmer the dal makhani for an additional 15-20 minutes, allowing the flavors to meld.</li>
+                        <li class="list-group-item">Garnish with fresh coriander leaves before serving.</li>
+                        <li class="list-group-item">Serve hot with naan or rice.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4 img-container2 chana-masala">
+                <img src="/Fimage/chana-masala.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">Chana Masala</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 cups cooked chickpeas (canned or boiled)</li>
+                        <li class="list-group-item">1 large onion, finely chopped</li>
+                        <li class="list-group-item">2 tomatoes, finely chopped</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2-3 green chilies, chopped</li>
+                        <li class="list-group-item">1 tablespoon ginger-garlic paste</li>
+                        <li class="list-group-item">1 teaspoon cumin seeds</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 teaspoon coriander powder</li>
+                        <li class="list-group-item">1/2 teaspoon turmeric powder</li>
+                        <li class="list-group-item">1 teaspoon red chili powder (adjust to taste)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 teaspoon garam masala</li>
+                        <li class="list-group-item">Salt to taste</li>
+                        <li class="list-group-item">2 tablespoons cooking oil</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section" id="instruction-ChanaMasala">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+                        <li class="list-group-item">Add chopped onions and sauté until golden brown.</li>
+                        <li class="list-group-item">Add ginger-garlic paste and green chilies. Sauté for a minute.</li>
+                        <li class="list-group-item">Add chopped tomatoes and cook until they become soft and the oil separates.</li>
+                        <li class="list-group-item">Add coriander powder, turmeric powder, red chili powder, and salt. Mix well and cook for a couple of minutes.</li>
+                        <li class="list-group-item">Add cooked chickpeas and garam masala. Mix to coat chickpeas with the spice mixture.</li>
+                        <li class="list-group-item">Add water if needed and simmer for 10-15 minutes until the flavors meld.</li>
+                        <li class="list-group-item">Garnish with fresh coriander leaves.</li>
+                        <li class="list-group-item">Serve hot with rice, naan, or chapati.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4 img-container2">
+                <img src="/Fimage/mint-coriander-chutney-recipe.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">Coriander Chutney</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 cups fresh coriander leaves, washed and chopped</li>
+                        <li class="list-group-item">1/2 cup fresh mint leaves, washed and chopped</li>
+                        <li class="list-group-item">2-3 green chilies, chopped (adjust according to your spice preference)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 small onion, chopped</li>
+                        <li class="list-group-item">1 tablespoon grated coconut (optional)</li>
+                        <li class="list-group-item">1 tablespoon roasted chana dal (split gram)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 teaspoon cumin seeds</li>
+                        <li class="list-group-item">1 teaspoon ginger, chopped</li>
+                        <li class="list-group-item">1-2 cloves of garlic (optional)</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">Salt to taste</li>
+                        <li class="list-group-item">1 tablespoon lemon juice</li>
+                        <li class="list-group-item">Water as needed</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">In a blender or food processor, combine fresh coriander leaves, mint leaves, green chilies, chopped onion, grated coconut (if using), roasted chana dal, cumin seeds, ginger, and garlic (if using).</li>
+                        <li class="list-group-item">Add salt to taste and lemon juice to the mixture.</li>
+                        <li class="list-group-item">Blend the ingredients until you get a smooth paste. Add water gradually to achieve your desired consistency.</li>
+                        <li class="list-group-item">Taste and adjust salt and lemon juice as needed.</li>
+                        <li class="list-group-item">Transfer the chutney to a serving bowl.</li>
+                        <li class="list-group-item">You can temper the chutney with mustard seeds, urad dal, and curry leaves for added flavor (optional).</li>
+                        <li class="list-group-item">Serve the coriander chutney with dosa, idli, samosa, or any other snack of your choice.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4 img-container2">
+                <img src="/Fimage/saag-paneer.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">Saag Paneer</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group d-block list-group-horizontal-md">
+                        <li class="list-group-item">250g paneer, cubed</li>
+                        <li class="list-group-item">500g fresh spinach, washed and chopped</li>
+                        <li class="list-group-item">1 large onion, finely chopped</li>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 tomatoes, finely chopped</li>
+                        <li class="list-group-item">2 green chilies, chopped</li>
+                        <li class="list-group-item">1 tablespoon ginger-garlic paste</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1/2 cup plain yogurt</li>
+                        <li class="list-group-item">1 teaspoon cumin seeds</li>
+                        <li class="list-group-item">1 teaspoon coriander powder</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1/2 teaspoon turmeric powder</li>
+                        <li class="list-group-item">1/2 teaspoon red chili powder (adjust to taste)</li>
+                        <li class="list-group-item">1/2 teaspoon garam masala</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">Salt to taste</li>
+                        <li class="list-group-item">2 tablespoons oil or ghee</li>
+                        <li class="list-group-item">Fresh coriander leaves for garnish</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section saag-paneer">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Blanch Spinach:
+                            <ul class="list-group">
+                                <li class="list-group-item">Boil a pot of water, add a pinch of salt.</li>
+                                <li class="list-group-item">Add chopped spinach to boiling water for about 2-3 minutes.</li>
+                                <li class="list-group-item">Drain and transfer the spinach to ice-cold water.</li>
+                                <li class="list-group-item">Blend the blanched spinach into a smooth puree.</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">Prepare Paneer:
+                            <ul class="list-group">
+                                <li class="list-group-item">Heat 1 tablespoon of oil or ghee in a pan.</li>
+                                <li class="list-group-item">Fry the paneer cubes until golden brown. Set aside.</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">Cooking the Base:
+                            <ul class="list-group">
+                                <li class="list-group-item">In the same pan, add 1 tablespoon of oil or ghee.</li>
+                                <li class="list-group-item">Add cumin seeds and let them splutter.</li>
+                                <li class="list-group-item">Add chopped onions and sauté until golden brown.</li>
+                                <li class="list-group-item">Add ginger-garlic paste and green chilies. Sauté for a minute.</li>
+                            </ul>
+                        </li>
+                        <!-- Continue with the remaining steps similarly -->
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4 img-container2 Saffron-Rice">
+                <img src="/Fimage/saffron-rice-1.jpg" alt="" class="img-fluid recipe-img">
+                <h3 class="text-light">Saffron Rice</h3>
+                <div class="recipe-details ingredient-section">
+                    <h4>Ingredients:</h4>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">1 cup basmati rice</li>
+                        <li class="list-group-item">2 cups water</li>
+                        <li class="list-group-item">A pinch of saffron strands</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2 tablespoons warm milk</li>
+                        <li class="list-group-item">2 tablespoons ghee (clarified butter)</li>
+                        <li class="list-group-item">1 small onion, thinly sliced</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">2-3 green cardamom pods</li>
+                        <li class="list-group-item">1 cinnamon stick</li>
+                        <li class="list-group-item">Salt to taste</li>
+                    </ul>
+                </div>
+                <div class="recipe-details instruction-section" id="instruction-SaffronRice">
+                    <h4>Instructions:</h4>
+                    <ol class="list-group">
+                        <li class="list-group-item">Rinse the basmati rice under cold water until the water runs clear.</li>
+                        <li class="list-group-item">Soak the saffron strands in warm milk and set aside.</li>
+                        <li class="list-group-item">In a pot, heat ghee over medium heat.</li>
+                        <li class="list-group-item">Add sliced onions and sauté until golden brown.</li>
+                        <li class="list-group-item">Add cardamom pods and cinnamon stick to the onions, sauté for an additional minute.</li>
+                        <li class="list-group-item">Add the rinsed basmati rice to the pot and stir to coat the rice with the ghee and spices.</li>
+                        <li class="list-group-item">Pour in the water, add saffron-soaked milk, and season with salt.</li>
+                        <li class="list-group-item">Bring the mixture to a boil, then reduce the heat to low, cover, and simmer until the rice is cooked and the liquid is absorbed (about 15-20 minutes).</li>
+                        <li class="list-group-item">Once cooked, fluff the rice with a fork.</li>
+                        <li class="list-group-item">Garnish with chopped fresh coriander before serving.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
